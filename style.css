@@ -132,9 +132,27 @@ footer{
 
 .bas_depage{
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 
-.PEA{
-	
+footer ul{
+	padding-left: 0;
+}
+
+.PEA {
+	margin-left: 10px;
+
+}
+
+footer a{
+	color: #727272;
+}
+
+footer a:hover{
+	color: #727272;
+}
+
+.hr{
+color: #e2dcdc;
+
 }
