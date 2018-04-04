@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, Sans-Serif;
+}
+
+.conteneur {
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+
+nav ul {
+
+	list-style-type: none;
+	margin: 20px 10px 0 0;
+	text-align: right;
+}
+
+li {
+
+	display: inline;
+	padding: 15px;
+
+
+}
+
+nav a {
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+
+
+a:hover {
+
+	opacity: .85;
+	text-decoration: underline;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: rgba(0,0,0,0.87);
+}
