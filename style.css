@@ -1,6 +1,9 @@
 body {
 	font-family: Arial, Sans-Serif;
+	margin: 0;
 }
+
+/* barre de navigation */
 
 .conteneur {
 
@@ -20,7 +23,8 @@ nav ul {
 li {
 
 	display: inline;
-	padding: 15px;
+	padding: 10px;
+	font-size: 0.9em;
 
 
 }
@@ -41,4 +45,59 @@ a:hover {
 a:visited {
 	text-decoration: none;
 	color: rgba(0,0,0,0.87);
+}
+
+/* bloc central */
+
+.corps_page {
+
+	margin:auto;
+	margin-top:200px;
+	width: 560px;
+	text-align: center;
+
+
+}
+
+.search {
+
+	text-align: left;
+	color: black;
+	width: 560px;
+	height: 40px;
+	border: 1px solid #EAEAEA;
+	margin-top: 20px;
+	box-shadow: 0px 2px 5px #E6E6E6;
+	font-size: 1em;
+	text-indent: 10px;
+	background-image: url(img/micro.png);
+	background-position: 540px;
+	background-repeat: no-repeat;
+
+
+}
+
+.search:hover, .search:focus {
+
+	box-shadow: 0px 4px 4px #E6E6E6;
+	outline: none;
+}
+
+.boutons {
+
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+
+
+}
+
+.button {
+
+	background-color: #F4F4F4;
+	color: #B2ABAB;
+	font-size: 0.8em;
+	width: 150px;
+	height: 30px;
+
 }
